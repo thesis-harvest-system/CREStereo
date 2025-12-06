@@ -1,6 +1,6 @@
-import megengine.module as M
-import megengine.functional as F
-from megengine import amp
+import megengine.module as M # type: ignore
+import megengine.functional as F # type: ignore
+from megengine import amp # type: ignore
 
 from .update import BasicUpdateBlock
 from .extractor import BasicEncoder

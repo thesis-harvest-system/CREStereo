@@ -4,8 +4,8 @@ Modified from: https://github.com/zju3dv/LoFTR/tree/master/src/loftr
 """
 
 import copy
-import megengine.module as M
-import megengine.functional as F
+import megengine.module as M # type: ignore
+import megengine.functional as F # type: ignore
 from .linear_attention import LinearAttention, FullAttention
 
 

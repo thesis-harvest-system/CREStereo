@@ -1,5 +1,5 @@
-import megengine.module as M
-import megengine.functional as F
+import megengine.module as M # type: ignore
+import megengine.functional as F # type: ignore
 
 
 class FlowHead(M.Module):

@@ -4,8 +4,8 @@ Modified from: https://github.com/idiap/fast-transformers/blob/master/fast_trans
 """
 
 import numpy as np
-import megengine.module as M
-import megengine.functional as F
+import megengine.module as M # type: ignore
+import megengine.functional as F # type: ignore
 
 
 def elu(x, alpha=1.0):
