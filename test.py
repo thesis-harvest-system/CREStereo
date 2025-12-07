@@ -1,7 +1,7 @@
 import os
 
-import megengine as mge
-import megengine.functional as F
+import megengine as mge #type: ignore
+import megengine.functional as F # type: ignore
 import argparse
 import numpy as np
 import cv2
